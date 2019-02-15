@@ -10,6 +10,7 @@ const pkg = require('./../package.json')
 const INTERNAL_COMMANDS = [
   'amend', 'reword', 'config', 'delete', 'rm', 'list', 'ls', 'status', 'st', 'new', 
   'create', 'open', 'stop', 'start', 'users', 'projects', 'services', 'customers', 'clients',
+  'help', '--help', '-?', '-h'
 ];
 
 const mainCommand = path.basename(process.argv[1]);
